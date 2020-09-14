@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Poker.HandEvaluator.PokerHands;
+using Yeahbah.Poker.HandEvaluator.PokerHands;
 
-namespace Poker.HandEvaluator
+namespace Yeahbah.Poker.HandEvaluator
 {
     public class DefaultHandEvaluator : IHandEvaluator
     {

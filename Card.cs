@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Poker
+namespace Yeahbah.Poker
 {
     public class Card : IComparable
     {

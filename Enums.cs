@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Poker
+namespace Yeahbah.Poker
 {
     public enum CardValue
     {

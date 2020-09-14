@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Poker.HandEvaluator.PokerHands
+namespace Yeahbah.Poker.HandEvaluator.PokerHands
 {
     public class PairHand : IPokerHand
     {

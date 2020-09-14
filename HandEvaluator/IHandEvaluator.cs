@@ -1,8 +1,8 @@
-﻿using Poker.HandEvaluator.PokerHands;
+﻿using Yeahbah.Poker.HandEvaluator.PokerHands;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Poker.HandEvaluator
+namespace Yeahbah.Poker.HandEvaluator
 {
     public struct HandEvaluationResult
     {       

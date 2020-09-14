@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace Poker.HandEvaluator.PokerHands
+namespace Yeahbah.Poker.HandEvaluator.PokerHands
 {
     public class FlushHand : IPokerHand
     {

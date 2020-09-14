@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Poker
+namespace Yeahbah.Poker
 {
     // source: https://scottlilly.com/create-better-random-numbers-in-c/
     public static class RandomNumber

@@ -1,4 +1,4 @@
-﻿namespace Poker
+﻿namespace Yeahbah.Poker
 {
     public interface IDeck
     {

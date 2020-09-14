@@ -1,4 +1,4 @@
-﻿namespace Poker.HandEvaluator.PokerHands
+﻿namespace Yeahbah.Poker.HandEvaluator.PokerHands
 {
     public enum HandType
     {
