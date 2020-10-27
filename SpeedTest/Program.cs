@@ -15,7 +15,7 @@ namespace SpeedTest
         private static int _numberOfHands = 10_000_000;
         static void Main(string[] args)
         {
-            Console.WriteLine("Setting up hands...");
+            Console.WriteLine($"Setting up {_numberOfHands} hands...");
             var stopWatch = new Stopwatch();
             stopWatch.Start();
             SetupHands();
@@ -42,8 +42,7 @@ namespace SpeedTest
                 tasks.Add(task);
                 hands.RemoveRange(0, handsPerTask);
             }
-
-
+            
             Task.WaitAll(tasks.ToArray());
 
             stopWatch.Stop();
@@ -60,11 +59,12 @@ namespace SpeedTest
             {
                 var task = Task.Run(() =>
                 {
+                    var deck = new Deck();
                     for (int j = 0; j < handsPerTask; j++)
                     {
-                        var deck = new Deck();
                         var hand = deck.TakeCards(5);
                         _hands.Add(hand);       
+                        deck.ResetDeck();
                     }
                 });    
                 tasks.Add(task);

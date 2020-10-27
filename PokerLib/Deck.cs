@@ -14,7 +14,9 @@ namespace Yeahbah.Poker
         }
 
         private Card[] _cards;
-        protected virtual void InitializeDeck()
+        private Card[] _initializedCards;
+
+        private void InitializeDeck()
         {
             // 13 card (index 2), values 4 suits
             // 13 x 4 array
@@ -34,12 +36,13 @@ namespace Yeahbah.Poker
                 }
             }
 
-            _cards = cardList.ToArray();
+            _initializedCards = cardList.ToArray();
+            ResetDeck();
         }
 
         public Card[] Cards => _cards;
 
-        protected void RemoveCard(Card card)
+        private void RemoveCard(Card card)
         {
             var cardIndex = Array.IndexOf(_cards, card);
 
@@ -82,7 +85,7 @@ namespace Yeahbah.Poker
 
         public void ResetDeck()
         {
-            InitializeDeck();
+            _cards = _initializedCards.ToArray();
         }
     }
 }
