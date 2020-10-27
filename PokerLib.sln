@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerLib", "PokerLib\PokerLib.csproj", "{C79D6420-0D88-4CD1-A6AE-66C208A6D32F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTest", "PokerTest\PokerTest.csproj", "{CE2482BD-3F0F-4B12-8275-8FBA2300AD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedTest", "SpeedTest\SpeedTest.csproj", "{0E16B261-AB44-4F58-91B4-1BF00DFF689B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C79D6420-0D88-4CD1-A6AE-66C208A6D32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79D6420-0D88-4CD1-A6AE-66C208A6D32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79D6420-0D88-4CD1-A6AE-66C208A6D32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79D6420-0D88-4CD1-A6AE-66C208A6D32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2482BD-3F0F-4B12-8275-8FBA2300AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2482BD-3F0F-4B12-8275-8FBA2300AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2482BD-3F0F-4B12-8275-8FBA2300AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2482BD-3F0F-4B12-8275-8FBA2300AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E16B261-AB44-4F58-91B4-1BF00DFF689B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E16B261-AB44-4F58-91B4-1BF00DFF689B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E16B261-AB44-4F58-91B4-1BF00DFF689B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E16B261-AB44-4F58-91B4-1BF00DFF689B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

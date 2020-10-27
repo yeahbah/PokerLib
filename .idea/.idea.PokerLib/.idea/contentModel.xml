@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\yeahb\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\yeahb\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.dll" t="Include" />
+    <e p="C:\Users\yeahb\.nuget\packages\microsoft.testplatform.testhost\16.5.0\build\netcoreapp2.1\x64\testhost.exe" t="Include" />
+    <e p="C:\Users\yeahb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\yeahb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\yeahb\.nuget\packages\xunit.runner.visualstudio\2.4.1\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\yeahb\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\yeahb\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_PokerLib.-1130069996.00" t="ExcludeRecursive" />
+    <e p="C:\Users\yeahb\Projects\PokerLib" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PokerLib" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Card.cs" t="Include" />
+        <e p="Deck.cs" t="Include" />
+        <e p="Enums.cs" t="Include" />
+        <e p="HandEvaluator" t="Include">
+          <e p="DefaultHandEvaluator.cs" t="Include" />
+          <e p="IHandEvaluator.cs" t="Include" />
+          <e p="PokerHands" t="Include">
+            <e p="FlushHand.cs" t="Include" />
+            <e p="FourOfAKindHand.cs" t="Include" />
+            <e p="FullhouseHand.cs" t="Include" />
+            <e p="HandType.cs" t="Include" />
+            <e p="IPokerHand.cs" t="Include" />
+            <e p="PairHand.cs" t="Include" />
+            <e p="StraightHand.cs" t="Include" />
+            <e p="ThreeOfAKindHand.cs" t="Include" />
+          </e>
+        </e>
+        <e p="IDealer.cs" t="Include" />
+        <e p="IDeck.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="PokerLib.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PokerLib.csproj" t="IncludeRecursive" />
+        <e p="RandomNumber.cs" t="Include" />
+      </e>
+      <e p="PokerLib.sln" t="IncludeFlat" />
+      <e p="PokerTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CardTest.cs" t="Include" />
+        <e p="DeckTest.cs" t="Include" />
+        <e p="FlushTest.cs" t="Include" />
+        <e p="FourOfAKindTest.cs" t="Include" />
+        <e p="FullhouseTest.cs" t="Include" />
+        <e p="HandEvaluatorTest.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="PokerTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PairHandTest.cs" t="Include" />
+        <e p="PokerTest.csproj" t="IncludeRecursive" />
+        <e p="StraightHandTest.cs" t="Include" />
+        <e p="ThreeOfAKindTest.cs" t="Include" />
+        <e p="VideoPokerTest.cs" t="Include" />
+      </e>
+      <e p="SpeedTest" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SpeedTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="SpeedTest.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
